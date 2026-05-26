@@ -1,0 +1,8 @@
+numpy
+torch
+matplotlib
+pandas
+openpyxl
+scikit-learn
+geopandas
+rasterio
