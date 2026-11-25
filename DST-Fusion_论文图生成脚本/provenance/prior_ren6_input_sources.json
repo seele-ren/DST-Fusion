@@ -1,0 +1,32 @@
+{
+  "dual_tower": {
+    "prediction": "runs/20261102_1543_box/rollval_predictions.csv",
+    "prediction_sha256": "a9b9eb31b2d8e74d7f22a154d09557695a10f314706353b907ae5b14d315e051",
+    "annotation_summary": "code/outputs/dual_tower/results.csv"
+  },
+  "rf_baseline": {
+    "prediction": "code/outputs/rf_baseline/rollval_predictions.csv",
+    "prediction_sha256": "c81f26b84c458f1d70e735e86e531e5efe4a97b3b4a6fe7dd178143a1ef9d7ee",
+    "annotation_summary": "code/outputs/rf_baseline/results.csv"
+  },
+  "lstm_daily_baseline": {
+    "prediction": "code/outputs/lstm_daily_baseline/rollval_predictions.csv",
+    "prediction_sha256": "0bd066458dc3b15e9411692fc998e09deee9a68526baf4dea70bdc5ea23617e6",
+    "annotation_summary": "code/outputs/lstm_daily_baseline/results.csv"
+  },
+  "transformer_daily_baseline": {
+    "prediction": "code/outputs/transformer_daily_baseline/rollval_predictions.csv",
+    "prediction_sha256": "957bda2140ce7078a9c845911e20b03d757d2f16c117f6a315ea0f131e5dbdcb",
+    "annotation_summary": "code/outputs/transformer_daily_baseline/results.csv"
+  },
+  "single_tower": {
+    "prediction": "runs/20261102_ddcn_map/rollval_predictions.csv",
+    "prediction_sha256": "4a53c6ee6a2c65bd89ba30030c2169178cb4f3580ddaf5f3b333192a7508e7c9",
+    "annotation_summary": "code/outputs/single_tower/results.csv"
+  },
+  "stgcn_baseline": {
+    "prediction": "code/outputs/stgcn_baseline/rollval_predictions.csv",
+    "prediction_sha256": "4a0ea3783aaac59dd63c852726243a99af9bd484542cc4a401130d5adc9f58b6",
+    "annotation_summary": "code/outputs/stgcn_baseline/results.csv"
+  }
+}

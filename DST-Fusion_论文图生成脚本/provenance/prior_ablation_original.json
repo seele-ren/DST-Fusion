@@ -1,0 +1,19 @@
+{
+  "original_script": "code/scripts/plotting/plot_results.py",
+  "source_hashes": {
+    "code/outputs/dual_tower/results.csv": "2106e515a4b016104d8ddf20bcdefbe403976f2283bed376466c1d6b3b88db7d",
+    "code/outputs/outputs_ablation_wo_graph/dual_tower/results.csv": "ff50577ebaed48e440e733e34aba910491a9a5a0c08016d60ddeaeacdaa4e090",
+    "code/outputs/outputs_ablation_wo_sif/dual_tower/results.csv": "dd517bb114a56070ee31075fb5623f2e11dcc69938f45139f237c98699a99cee"
+  },
+  "means": {
+    "DST-Fusion": 0.7008715629577636,
+    "DST-Fusion w/o graph": 0.8278462767601014,
+    "DST-Fusion w/o SIF": 0.7238059282302857
+  },
+  "annual_std": {
+    "DST-Fusion": 0.07573908746980325,
+    "DST-Fusion w/o graph": 0.10636855579318348,
+    "DST-Fusion w/o SIF": 0.07883257940362039
+  },
+  "changes": "Only original-summary data and their numeric labels; original plotting functions, labels, palette, and style retained."
+}

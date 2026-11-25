@@ -1,0 +1,95 @@
+{
+  "prediction_seed": 42,
+  "county_counts": {
+    "2015": 33,
+    "2016": 33,
+    "2017": 28,
+    "2018": 28,
+    "2019": 33
+  },
+  "prediction_sources": [
+    {
+      "model": "DST-Fusion",
+      "source_kind": "server rerun",
+      "prediction_file": "runs/20261102_1543_box/rollval_predictions.csv",
+      "prediction_sha256": "a9b9eb31b2d8e74d7f22a154d09557695a10f314706353b907ae5b14d315e051"
+    },
+    {
+      "model": "RF",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/rf_baseline/rollval_predictions.csv",
+      "prediction_sha256": "c81f26b84c458f1d70e735e86e531e5efe4a97b3b4a6fe7dd178143a1ef9d7ee"
+    },
+    {
+      "model": "LSTM-daily",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/lstm_daily_baseline/rollval_predictions.csv",
+      "prediction_sha256": "0bd066458dc3b15e9411692fc998e09deee9a68526baf4dea70bdc5ea23617e6"
+    },
+    {
+      "model": "Transformer-daily",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/transformer_daily_baseline/rollval_predictions.csv",
+      "prediction_sha256": "957bda2140ce7078a9c845911e20b03d757d2f16c117f6a315ea0f131e5dbdcb"
+    },
+    {
+      "model": "DDCN",
+      "source_kind": "server rerun",
+      "prediction_file": "runs/20261102_ddcn_map/rollval_predictions.csv",
+      "prediction_sha256": "4a53c6ee6a2c65bd89ba30030c2169178cb4f3580ddaf5f3b333192a7508e7c9"
+    },
+    {
+      "model": "STGCN",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/stgcn_baseline/rollval_predictions.csv",
+      "prediction_sha256": "4a0ea3783aaac59dd63c852726243a99af9bd484542cc4a401130d5adc9f58b6"
+    }
+  ],
+  "figure4_source_sha256": "b4e92ca5d0dfded3cc561d67372d23f38c993d1b116ca4c8c7bba86a877ad895",
+  "geojson_sha256": "c641702ab60f0bedc348369663fa5e3aa530c1e38e8da51cfedca813b14dda6b",
+  "geometry_repaired_for_display": [
+    "榆树市",
+    "德惠市",
+    "舒兰市",
+    "东辽县"
+  ],
+  "display_geographic_crs": "EPSG:4326",
+  "queen_edges_sha256": "88c5b8302b394503d60c7a2f2bdeedf461b4c74c38c22f24c8c482468652bbaa",
+  "queen_source": "build_county_adjacency in runs/20261102_1543_box/source/data.py, verified against all five saved fold contexts",
+  "queen_islands": [
+    "伊通满族自治县",
+    "公主岭市"
+  ],
+  "figure4_limits": {
+    "signed": [
+      -3,
+      3
+    ],
+    "absolute": [
+      0,
+      3
+    ]
+  },
+  "annual_map_limits": {
+    "signed": [
+      -5,
+      5
+    ],
+    "absolute": [
+      0,
+      5
+    ]
+  },
+  "moran": {
+    "permutations": 9999,
+    "permutation_seed": 42,
+    "tail": "upper",
+    "weights": "row-standardized binary Queen adjacency, zero diagonal, islands excluded",
+    "adjustment": "Holm across six models"
+  },
+  "figure_dimensions_mm": [
+    180,
+    190
+  ],
+  "figure4_png_dpi": 600
+}

@@ -1,0 +1,132 @@
+{
+  "product_doi": "10.57760/SCIENCEDB.08490",
+  "product_version": "WGS84-v1",
+  "years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "source_files": [
+    {
+      "year": 2001,
+      "filename": "classified-Jilin-maize-2001-WGS84-v1.tif",
+      "sha256": "9a0ff0afd7aa9481ea2e180a071c6f3550fc1eed63b83f3a53f9c2c47bf7d02e"
+    },
+    {
+      "year": 2002,
+      "filename": "classified-Jilin-maize-2002-WGS84-v1.tif",
+      "sha256": "4eacc898e9a14b7bd25532ef895a6eccfcaf51d416d23078e34cb5796710a7fb"
+    },
+    {
+      "year": 2003,
+      "filename": "classified-Jilin-maize-2003-WGS84-v1.tif",
+      "sha256": "8b23541c373cd2a0ff7736ca37b209387d71398f3ce9c9492e355334cbd531d5"
+    },
+    {
+      "year": 2004,
+      "filename": "classified-Jilin-maize-2004-WGS84-v1.tif",
+      "sha256": "83e857e07584eb6610109daed665c0d0a9fd3f23d603f6d68334b3dac51acf5a"
+    },
+    {
+      "year": 2005,
+      "filename": "classified-Jilin-maize-2005-WGS84-v1.tif",
+      "sha256": "4bd0d756052842adf8214b31c089eae1028eabb090a518a489746b9196d5e7d4"
+    },
+    {
+      "year": 2006,
+      "filename": "classified-Jilin-maize-2006-WGS84-v1.tif",
+      "sha256": "3bcbcf8baefd34f1301c02e7922a443a6b9260fff663c15da9f4b63ea603f315"
+    },
+    {
+      "year": 2007,
+      "filename": "classified-Jilin-maize-2007-WGS84-v1.tif",
+      "sha256": "e7ad7ed1b45946b0e3a7bf4b1654fd4d33b8bcfdcb35b9e561d356660a37ba48"
+    },
+    {
+      "year": 2008,
+      "filename": "classified-Jilin-maize-2008-WGS84-v1.tif",
+      "sha256": "b11787a22463a49bc7b7e9a92cac04f515e180c9dfe4586d1f534aa185f19a8e"
+    },
+    {
+      "year": 2009,
+      "filename": "classified-Jilin-maize-2009-WGS84-v1.tif",
+      "sha256": "6c230a866d39ddc134ed69194f77a325b25a9fcb761b69d677e4a947e889d20b"
+    },
+    {
+      "year": 2010,
+      "filename": "classified-Jilin-maize-2010-WGS84-v1.tif",
+      "sha256": "76167f8b2cc2e168c73f4b2bab49966e9e46a5181ec4ae43da3c8a044c012f42"
+    },
+    {
+      "year": 2011,
+      "filename": "classified-Jilin-maize-2011-WGS84-v1.tif",
+      "sha256": "83fcd19f20b4d1525ba5102a3a742f5ead3a577e78e0e4d1ddddecfefe60c5f1"
+    },
+    {
+      "year": 2012,
+      "filename": "classified-Jilin-maize-2012-WGS84-v1.tif",
+      "sha256": "48843870b4adacd2fe4ff8d7fdd67989c19bf040f3fd6deb3511c4277e6b965c"
+    },
+    {
+      "year": 2013,
+      "filename": "classified-Jilin-maize-2013-WGS84-v1.tif",
+      "sha256": "f79db0eca9d5559c9c487e1210be8ff0401e5951f44fade3cd5a85e0468e9715"
+    },
+    {
+      "year": 2014,
+      "filename": "classified-Jilin-maize-2014-WGS84-v1.tif",
+      "sha256": "90dc149bf1a0e11bd427a5952136ffd73dce9d87e7358ea4dcbb20495cf3c4ac"
+    },
+    {
+      "year": 2015,
+      "filename": "classified-Jilin-maize-2015-WGS84-v1.tif",
+      "sha256": "b6519fb99449c4354db8547d06b0163eaf851c0de5ac7722133c1e455c18e9dc"
+    },
+    {
+      "year": 2016,
+      "filename": "classified-Jilin-maize-2016-WGS84-v1.tif",
+      "sha256": "125dd511b5310f82db164ba4615a11972d611e54d7c8d9acd8902060a69ef9d7"
+    },
+    {
+      "year": 2017,
+      "filename": "classified-Jilin-maize-2017-WGS84-v1.tif",
+      "sha256": "f654203b38e0326231ef97f8581d116ca53413010903f2f099ba1cd581645e72"
+    },
+    {
+      "year": 2018,
+      "filename": "classified-Jilin-maize-2018-WGS84-v1.tif",
+      "sha256": "7b0e1efa1487d5d8ee9b196efe12cd88563a8a86027470e9b223e141fffca379"
+    },
+    {
+      "year": 2019,
+      "filename": "classified-Jilin-maize-2019-WGS84-v1.tif",
+      "sha256": "c52387353951fd8f0828c125d532e6e6da2af0818bc6d8c742f7e4fc09dc8ce2"
+    }
+  ],
+  "display_shape": [
+    2017,
+    3588
+  ],
+  "display_scale": 0.1,
+  "annual_binary_resampling": "nearest",
+  "threshold_fraction": 0.3,
+  "minimum_occurrences": 6,
+  "pixels_retained_within_province": 707592,
+  "display_mask_sha256": "b2b35310ede2eabad2f9bbb2ab43de826fa2dc5f333f7d367e6d55f5561fee9f"
+}

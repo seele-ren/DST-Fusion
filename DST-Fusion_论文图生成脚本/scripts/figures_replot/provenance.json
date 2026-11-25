@@ -1,0 +1,315 @@
+{
+  "models": [
+    {
+      "model": "DST-Fusion",
+      "source_kind": "server rerun",
+      "prediction_file": "runs/20261102_1543_box/rollval_predictions.csv",
+      "prediction_sha256": "a9b9eb31b2d8e74d7f22a154d09557695a10f314706353b907ae5b14d315e051",
+      "crosscheck_file": "runs/20261102_1543_box/summary.json",
+      "mean_annual_rmse": 0.7068084651971948,
+      "mean_annual_r2": 0.6922086071318109,
+      "annual_metrics": [
+        {
+          "year": 2015,
+          "n": 33,
+          "rmse": 0.6150406593804401,
+          "r2": 0.8033541945543585
+        },
+        {
+          "year": 2016,
+          "n": 33,
+          "rmse": 0.7911713580044937,
+          "r2": 0.7804401601407879
+        },
+        {
+          "year": 2017,
+          "n": 28,
+          "rmse": 0.7657269299282289,
+          "r2": 0.8384384580993393
+        },
+        {
+          "year": 2018,
+          "n": 28,
+          "rmse": 0.6579475196763466,
+          "r2": 0.6370835912142041
+        },
+        {
+          "year": 2019,
+          "n": 33,
+          "rmse": 0.7041558589964645,
+          "r2": 0.4017266316503646
+        }
+      ],
+      "n_predictions": 155,
+      "n_counties": 33,
+      "county_bias_range": [
+        -0.7405009269714355,
+        1.54737229347229
+      ]
+    },
+    {
+      "model": "RF",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/rf_baseline/rollval_predictions.csv",
+      "prediction_sha256": "c81f26b84c458f1d70e735e86e531e5efe4a97b3b4a6fe7dd178143a1ef9d7ee",
+      "crosscheck_file": "code/outputs/rf_baseline/results.csv",
+      "mean_annual_rmse": 1.006379730475763,
+      "mean_annual_r2": 0.4580751319298811,
+      "annual_metrics": [
+        {
+          "year": 2015,
+          "n": 33,
+          "rmse": 0.9707092727326851,
+          "r2": 0.51015869865652
+        },
+        {
+          "year": 2016,
+          "n": 33,
+          "rmse": 1.2491281462184403,
+          "r2": 0.45269958071814476
+        },
+        {
+          "year": 2017,
+          "n": 28,
+          "rmse": 1.2404214167384053,
+          "r2": 0.5760363141687188
+        },
+        {
+          "year": 2018,
+          "n": 28,
+          "rmse": 0.8130868330053485,
+          "r2": 0.44575988894340823
+        },
+        {
+          "year": 2019,
+          "n": 33,
+          "rmse": 0.7585529836839359,
+          "r2": 0.3057211771626137
+        }
+      ],
+      "n_predictions": 155,
+      "n_counties": 33,
+      "county_bias_range": [
+        -1.590213319024113,
+        1.477558982446687
+      ]
+    },
+    {
+      "model": "LSTM-daily",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/lstm_daily_baseline/rollval_predictions.csv",
+      "prediction_sha256": "0bd066458dc3b15e9411692fc998e09deee9a68526baf4dea70bdc5ea23617e6",
+      "crosscheck_file": "code/outputs/lstm_daily_baseline/results.csv",
+      "mean_annual_rmse": 1.121553098911707,
+      "mean_annual_r2": 0.36565778745905136,
+      "annual_metrics": [
+        {
+          "year": 2015,
+          "n": 33,
+          "rmse": 1.2081239144728768,
+          "r2": 0.24124772545477513
+        },
+        {
+          "year": 2016,
+          "n": 33,
+          "rmse": 1.4725858042362978,
+          "r2": 0.23937076895198472
+        },
+        {
+          "year": 2017,
+          "n": 28,
+          "rmse": 1.6525930199851073,
+          "r2": 0.2474731929303855
+        },
+        {
+          "year": 2018,
+          "n": 28,
+          "rmse": 0.5349171930299447,
+          "r2": 0.7601182488556687
+        },
+        {
+          "year": 2019,
+          "n": 33,
+          "rmse": 0.7395455628343086,
+          "r2": 0.3400790011024427
+        }
+      ],
+      "n_predictions": 155,
+      "n_counties": 33,
+      "county_bias_range": [
+        -1.3037320137023927,
+        1.9575180053710937
+      ]
+    },
+    {
+      "model": "Transformer-daily",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/transformer_daily_baseline/rollval_predictions.csv",
+      "prediction_sha256": "957bda2140ce7078a9c845911e20b03d757d2f16c117f6a315ea0f131e5dbdcb",
+      "crosscheck_file": "code/outputs/transformer_daily_baseline/results.csv",
+      "mean_annual_rmse": 0.9173746153223313,
+      "mean_annual_r2": 0.5638875942953174,
+      "annual_metrics": [
+        {
+          "year": 2015,
+          "n": 33,
+          "rmse": 0.9004667630111289,
+          "r2": 0.5784855976446079
+        },
+        {
+          "year": 2016,
+          "n": 33,
+          "rmse": 1.2682742207131117,
+          "r2": 0.43579345193827745
+        },
+        {
+          "year": 2017,
+          "n": 28,
+          "rmse": 1.1683667433463165,
+          "r2": 0.6238608659966944
+        },
+        {
+          "year": 2018,
+          "n": 28,
+          "rmse": 0.5872826384087411,
+          "r2": 0.7108531796336794
+        },
+        {
+          "year": 2019,
+          "n": 33,
+          "rmse": 0.6624827111323586,
+          "r2": 0.47044487626332765
+        }
+      ],
+      "n_predictions": 155,
+      "n_counties": 33,
+      "county_bias_range": [
+        -1.72079496383667,
+        1.2815658092498778
+      ]
+    },
+    {
+      "model": "DDCN",
+      "source_kind": "server rerun",
+      "prediction_file": "runs/20261102_ddcn_map/rollval_predictions.csv",
+      "prediction_sha256": "4a53c6ee6a2c65bd89ba30030c2169178cb4f3580ddaf5f3b333192a7508e7c9",
+      "crosscheck_file": "runs/20261102_ddcn_map/summary.json",
+      "mean_annual_rmse": 1.1084709864024642,
+      "mean_annual_r2": 0.3454280771536269,
+      "annual_metrics": [
+        {
+          "year": 2015,
+          "n": 33,
+          "rmse": 1.0013609047658598,
+          "r2": 0.4787353236190046
+        },
+        {
+          "year": 2016,
+          "n": 33,
+          "rmse": 1.347795326868593,
+          "r2": 0.3628235957635787
+        },
+        {
+          "year": 2017,
+          "n": 28,
+          "rmse": 1.4270802121197002,
+          "r2": 0.4388397298731971
+        },
+        {
+          "year": 2018,
+          "n": 28,
+          "rmse": 0.9709886104353201,
+          "r2": 0.2095901058294406
+        },
+        {
+          "year": 2019,
+          "n": 33,
+          "rmse": 0.7951298778228478,
+          "r2": 0.23715163068291334
+        }
+      ],
+      "n_predictions": 155,
+      "n_counties": 33,
+      "county_bias_range": [
+        -1.6905911445617676,
+        2.385167360305786
+      ]
+    },
+    {
+      "model": "STGCN",
+      "source_kind": "archived",
+      "prediction_file": "code/outputs/stgcn_baseline/rollval_predictions.csv",
+      "prediction_sha256": "4a0ea3783aaac59dd63c852726243a99af9bd484542cc4a401130d5adc9f58b6",
+      "crosscheck_file": "code/outputs/stgcn_baseline/results.csv",
+      "mean_annual_rmse": 1.1580587067549255,
+      "mean_annual_r2": 0.3071470028142263,
+      "annual_metrics": [
+        {
+          "year": 2015,
+          "n": 33,
+          "rmse": 1.1972720723158288,
+          "r2": 0.25481732695705617
+        },
+        {
+          "year": 2016,
+          "n": 33,
+          "rmse": 1.5046513945317204,
+          "r2": 0.2058846767950926
+        },
+        {
+          "year": 2017,
+          "n": 28,
+          "rmse": 1.4635615177053085,
+          "r2": 0.40978246130926255
+        },
+        {
+          "year": 2018,
+          "n": 28,
+          "rmse": 0.8399194848201146,
+          "r2": 0.408575366759671
+        },
+        {
+          "year": 2019,
+          "n": 33,
+          "rmse": 0.7848890644016554,
+          "r2": 0.25667518225004926
+        }
+      ],
+      "n_predictions": 155,
+      "n_counties": 33,
+      "county_bias_range": [
+        -2.131482696533203,
+        2.577940559387207
+      ]
+    }
+  ],
+  "boundary_file": "code/data/吉林省.json",
+  "boundary_sha256": "c641702ab60f0bedc348369663fa5e3aa530c1e38e8da51cfedca813b14dda6b",
+  "boundary_count": 60,
+  "geometry_repairs": [
+    "榆树市",
+    "德惠市",
+    "舒兰市",
+    "东辽县"
+  ],
+  "coordinate_assumption": "Supplied GeoJSON longitude/latitude treated as EPSG:4326; authoritative datum/version not documented in source.",
+  "aggregation": "Arithmetic mean of signed prediction-minus-observation errors over available years per county; 23 counties have five years, 10 have four.",
+  "missing": "27 county-level polygons have no evaluated prediction and are shown in gray hatching, never as zero.",
+  "color_limits": [
+    -4,
+    4
+  ],
+  "colormap": "RdBu_r",
+  "out_of_range_values": 0,
+  "dimensions_mm": [
+    135,
+    187
+  ],
+  "png_dpi": 600,
+  "software": {
+    "matplotlib": "3.11.1",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2"
+  },
+  "original_manuscript_and_summary_tables_modified": false
+}

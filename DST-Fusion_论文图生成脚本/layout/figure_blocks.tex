@@ -1,0 +1,90 @@
+% Copied from the current Remote Sensing manuscript.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\columnwidth]{ren1.pdf}
+    \caption{Study area and maize occurrence in Jilin Province, China. Outlines mark the 33 county-level modeling units listed in Table~\ref{tab:study_counties}. Green cells indicate locations classified as maize in at least 30\% of the 19 annual CCD-Maize maps from 2001 to 2019. For display, the annual maps were resampled by nearest neighbor to one-tenth of their original raster dimensions before aggregation. The rolling-year models used masks built only from years preceding each target year. Map lines delineate study areas and do not necessarily depict accepted national boundaries.}\label{fig:studyarea}
+\end{figure}
+
+\stepcounter{figure} % Keep the manuscript numbering.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[t]{0.49\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{ren3.pdf}\\
+        {\footnotesize (a)}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.49\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{ren4.pdf}\\
+        {\footnotesize (b)}
+    \end{minipage}
+    \par\smallskip
+    \includegraphics[width=0.94\columnwidth]{ren5.pdf}
+    \par\vspace{-0.3em}
+    {\footnotesize (c)}
+    \caption{Overall performance in the 2015--2019 rolling-year tests (seed 42). Panels (a) and (b) show five-year mean RMSE (Mg ha$^{-1}$) and $R^{2}$, respectively, with error bars showing standard deviations across years. The scatter plots in (c) pool the estimated and observed county yields from all five test years. For each model, the annotated RMSE and $R^{2}$ are the arithmetic means of the corresponding annual metrics, with equal weight given to each year. In (c), color denotes point density, the red line denotes perfect agreement, and dashed lines denote $\pm 3$ Mg ha$^{-1}$.}\label{fig:overall_metrics}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \begin{adjustwidth}{-\extralength}{0cm}
+    \centering
+    \includegraphics[width=0.90\linewidth]{county_error_maps/figure4.pdf}
+    \caption{Spatial distribution of ({\bfseries A}) mean signed errors and ({\bfseries B}) mean absolute errors in county-level maize yield estimates for six models in Jilin Province. Signed error is estimated minus observed yield. Each county-level value was averaged over the available evaluation years in 2015--2019. Absolute errors were calculated before averaging. Errors are expressed in Mg ha$^{-1}$. Hatched gray polygons indicate counties without an evaluated prediction. RF denotes random forest, DDCN denotes Daily DeepCropNet, and STGCN denotes the spatiotemporal graph convolutional network.}\label{fig:county_error}
+    \end{adjustwidth}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.84\columnwidth]{ren7.pdf}
+    \par\vspace{-0.15em}
+    {\footnotesize (a)}
+    \par\vspace{0.25em}
+    \includegraphics[width=0.84\columnwidth]{ren8.pdf}
+    \par\vspace{-0.7em}
+    {\footnotesize (b)}
+    \caption{Annual model performance in Jilin Province during the 2015--2019 rolling-year tests: (a) RMSE (Mg ha$^{-1}$) and (b) $R^{2}$. Each test used training data through the preceding year.}\label{fig:yearly_metrics}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{adjustwidth}{-\extralength}{0cm}
+    \centering
+    \includegraphics[page=1,width=\linewidth]{county_error_maps/annual_maps.pdf}
+    \caption{County-level maize yield errors for six models in 2015 ($n=33$ evaluated counties).}
+    \label{fig:annual_county_error}
+    \end{adjustwidth}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{adjustwidth}{-\extralength}{0cm}
+    \centering
+    \includegraphics[page=2,width=\linewidth]{county_error_maps/annual_maps.pdf}
+    \caption{County-level maize yield errors for six models in 2016 ($n=33$ evaluated counties).}
+    \end{adjustwidth}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{adjustwidth}{-\extralength}{0cm}
+    \centering
+    \includegraphics[page=3,width=\linewidth]{county_error_maps/annual_maps.pdf}
+    \caption{County-level maize yield errors for six models in 2017 ($n=28$ evaluated counties).}
+    \end{adjustwidth}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{adjustwidth}{-\extralength}{0cm}
+    \centering
+    \includegraphics[page=4,width=\linewidth]{county_error_maps/annual_maps.pdf}
+    \caption{County-level maize yield errors for six models in 2018 ($n=28$ evaluated counties).}
+    \end{adjustwidth}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{adjustwidth}{-\extralength}{0cm}
+    \centering
+    \includegraphics[page=5,width=\linewidth]{county_error_maps/annual_maps.pdf}
+    \caption{County-level maize yield errors for six models in 2019 ($n=33$ evaluated counties).}
+    \label{fig:annual_county_error_2019}
+    \end{adjustwidth}
+\end{figure}

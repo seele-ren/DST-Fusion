@@ -1,0 +1,12 @@
+matplotlib==3.11.2
+numpy
+pandas
+scipy
+geopandas==1.2.0
+shapely>=2.1
+pyproj
+rasterio==1.5.2
+Pillow
+esda==2.10.0
+libpysal==4.15.1
+statsmodels==0.15.0
