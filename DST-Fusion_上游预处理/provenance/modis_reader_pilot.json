@@ -1,0 +1,378 @@
+{
+  "date": "2015-06-01",
+  "same_original_scripts": [
+    "batch_modis_pre.py",
+    "modis_indices.py"
+  ],
+  "reader_substitution_passed": true,
+  "rasters_identical": true,
+  "annual_mask_pixels": {
+    "农安县": 10920,
+    "梨树县": 10374,
+    "临江市": 268
+  },
+  "old_stats_matched": 20,
+  "old_stats_total": 60,
+  "comparisons": [
+    {
+      "County": "农安县",
+      "variable": "EVI_median",
+      "old": 0.3998459428548813,
+      "reproduced": 0.4034503698348999
+    },
+    {
+      "County": "农安县",
+      "variable": "EVI_std",
+      "old": 0.04560513435993033,
+      "reproduced": 0.05242405170349649
+    },
+    {
+      "County": "农安县",
+      "variable": "EVI_p10",
+      "old": 0.353527644276619,
+      "reproduced": 0.3588813692331314
+    },
+    {
+      "County": "农安县",
+      "variable": "EVI_p90",
+      "old": 0.4634244441986084,
+      "reproduced": 0.46772295236587524
+    },
+    {
+      "County": "农安县",
+      "variable": "WDRVI_median",
+      "old": -0.718829333782196,
+      "reproduced": -0.7185588777065277
+    },
+    {
+      "County": "农安县",
+      "variable": "WDRVI_std",
+      "old": 0.012813901369600653,
+      "reproduced": 0.013162737601566653
+    },
+    {
+      "County": "农安县",
+      "variable": "WDRVI_p10",
+      "old": -0.7305593073368073,
+      "reproduced": -0.7301065027713776
+    },
+    {
+      "County": "农安县",
+      "variable": "WDRVI_p90",
+      "old": -0.7004451990127564,
+      "reproduced": -0.7006819248199463
+    },
+    {
+      "County": "农安县",
+      "variable": "GCI_median",
+      "old": 1.0774533152580261,
+      "reproduced": 1.0766465663909912
+    },
+    {
+      "County": "农安县",
+      "variable": "GCI_std",
+      "old": 0.11343765670234363,
+      "reproduced": 0.13236453729379385
+    },
+    {
+      "County": "农安县",
+      "variable": "GCI_p10",
+      "old": 0.958259665966034,
+      "reproduced": 0.953475832939148
+    },
+    {
+      "County": "农安县",
+      "variable": "GCI_p90",
+      "old": 1.2402674436569214,
+      "reproduced": 1.2394094467163086
+    },
+    {
+      "County": "农安县",
+      "variable": "NDWI_median",
+      "old": -0.16483664512634277,
+      "reproduced": -0.16290026158094406
+    },
+    {
+      "County": "农安县",
+      "variable": "NDWI_std",
+      "old": 0.035294721817991315,
+      "reproduced": 0.03798121086359656
+    },
+    {
+      "County": "农安县",
+      "variable": "NDWI_p10",
+      "old": -0.1923469066619873,
+      "reproduced": -0.1892264485359192
+    },
+    {
+      "County": "农安县",
+      "variable": "NDWI_p90",
+      "old": -0.13394231498241424,
+      "reproduced": -0.12959672510623932
+    },
+    {
+      "County": "农安县",
+      "variable": "NIRv_median",
+      "old": 622.1123657226562,
+      "reproduced": 622.1668090820312
+    },
+    {
+      "County": "农安县",
+      "variable": "NIRv_std",
+      "old": 81.56002836584062,
+      "reproduced": 84.85609866308799
+    },
+    {
+      "County": "农安县",
+      "variable": "NIRv_p10",
+      "old": 533.3205688476562,
+      "reproduced": 530.1414794921875
+    },
+    {
+      "County": "农安县",
+      "variable": "NIRv_p90",
+      "old": 726.5035400390625,
+      "reproduced": 722.8157958984375
+    },
+    {
+      "County": "梨树县",
+      "variable": "EVI_median",
+      "old": 0.33307190239429474,
+      "reproduced": 0.33614926040172577
+    },
+    {
+      "County": "梨树县",
+      "variable": "EVI_std",
+      "old": 0.06195477682283809,
+      "reproduced": 0.06397425078505727
+    },
+    {
+      "County": "梨树县",
+      "variable": "EVI_p10",
+      "old": 0.29812876880168915,
+      "reproduced": 0.30150068998336793
+    },
+    {
+      "County": "梨树县",
+      "variable": "EVI_p90",
+      "old": 0.40642791986465454,
+      "reproduced": 0.42327982187271124
+    },
+    {
+      "County": "梨树县",
+      "variable": "WDRVI_median",
+      "old": -0.73318812251091,
+      "reproduced": -0.7335116565227509
+    },
+    {
+      "County": "梨树县",
+      "variable": "WDRVI_std",
+      "old": 0.018415454869144466,
+      "reproduced": 0.018931345508164294
+    },
+    {
+      "County": "梨树县",
+      "variable": "WDRVI_p10",
+      "old": -0.7422158718109131,
+      "reproduced": -0.7427724123001098
+    },
+    {
+      "County": "梨树县",
+      "variable": "WDRVI_p90",
+      "old": -0.7126241624355316,
+      "reproduced": -0.7120154023170471
+    },
+    {
+      "County": "梨树县",
+      "variable": "GCI_median",
+      "old": 1.0177100896835327,
+      "reproduced": 1.0073598623275757
+    },
+    {
+      "County": "梨树县",
+      "variable": "GCI_std",
+      "old": 0.13144860299386812,
+      "reproduced": 0.15432046498928306
+    },
+    {
+      "County": "梨树县",
+      "variable": "GCI_p10",
+      "old": 0.9331706166267395,
+      "reproduced": 0.9033045589923858
+    },
+    {
+      "County": "梨树县",
+      "variable": "GCI_p90",
+      "old": 1.1575142741203308,
+      "reproduced": 1.1557303667068481
+    },
+    {
+      "County": "梨树县",
+      "variable": "NDWI_median",
+      "old": -0.13983718305826187,
+      "reproduced": -0.13721492141485214
+    },
+    {
+      "County": "梨树县",
+      "variable": "NDWI_std",
+      "old": 0.025457632376091614,
+      "reproduced": 0.03299333576743542
+    },
+    {
+      "County": "梨树县",
+      "variable": "NDWI_p10",
+      "old": -0.16071157902479172,
+      "reproduced": -0.15817131400108336
+    },
+    {
+      "County": "梨树县",
+      "variable": "NDWI_p90",
+      "old": -0.10710246115922928,
+      "reproduced": -0.09954870715737343
+    },
+    {
+      "County": "梨树县",
+      "variable": "NIRv_median",
+      "old": 620.6586303710938,
+      "reproduced": 619.6174621582031
+    },
+    {
+      "County": "梨树县",
+      "variable": "NIRv_std",
+      "old": 123.0799582278307,
+      "reproduced": 135.80055251942463
+    },
+    {
+      "County": "梨树县",
+      "variable": "NIRv_p10",
+      "old": 537.5803833007812,
+      "reproduced": 529.8125671386719
+    },
+    {
+      "County": "梨树县",
+      "variable": "NIRv_p90",
+      "old": 792.8333740234375,
+      "reproduced": 814.4430114746094
+    },
+    {
+      "County": "临江市",
+      "variable": "EVI_median",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "EVI_std",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "EVI_p10",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "EVI_p90",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "WDRVI_median",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "WDRVI_std",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "WDRVI_p10",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "WDRVI_p90",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "GCI_median",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "GCI_std",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "GCI_p10",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "GCI_p90",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NDWI_median",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NDWI_std",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NDWI_p10",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NDWI_p90",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NIRv_median",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NIRv_std",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NIRv_p10",
+      "old": null,
+      "reproduced": null
+    },
+    {
+      "County": "临江市",
+      "variable": "NIRv_p90",
+      "old": null,
+      "reproduced": null
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "verified_on": "2026-11-25",
+  "model_input_archive_hashes_match": true,
+  "fold_masks": {
+    "rebuilt_target_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "case_pixel_counts_match_30_percent_overlap_audit": 165,
+    "separately_rerun_overlap_tables_byte_identical": true
+  },
+  "cmfd": {
+    "annual_csv_count": 19,
+    "archive_rows": 416340,
+    "matching_training_date_county_keys": 129064,
+    "compared_fields": [
+      "temp_avg_c",
+      "tmax_c",
+      "GDD",
+      "KDD",
+      "PRCP",
+      "VPD"
+    ],
+    "maximum_absolute_deviation": 5.0000000000001215e-08,
+    "script_synthetic_netcdf_check": "passed",
+    "independent_tmax_source": "unverified"
+  },
+  "modis": {
+    "annual_tables_before_fill": 19,
+    "annual_tables_after_fill": 19,
+    "rejoined_all_counties_rows": 227760,
+    "smoothing_rerun_cells": 4555200,
+    "smoothing_rerun_cells_outside_1e_6": 36,
+    "smoothing_rerun_max_absolute_deviation": 0.000421999953687191,
+    "used_optical_training_cells": 1935960,
+    "used_optical_training_cells_outside_1e_6": 76,
+    "hdf_demo_source_files": [
+      "MOD09GA.A2015152.h26v04.061.2021325051555.hdf",
+      "MOD09GA.A2015152.h27v04.061.2021325052244.hdf"
+    ],
+    "hdf_demo_fold": 2015,
+    "hdf_demo_date": "2015-06-01",
+    "hdf_demo_counties": 60,
+    "hdf_demo_total_candidate_pixels": 174622,
+    "hdf_demo_valid_counts_and_fractions_checked": true
+  },
+  "hcsif": {
+    "annual_8day_csv_count": 19,
+    "archive_8day_rows": 33840,
+    "upstream_spatial_extraction_synthetic_tif_check": "passed",
+    "week_reconstructed_keys": 28500,
+    "weekly_field_values_all_match": true
+  }
+}

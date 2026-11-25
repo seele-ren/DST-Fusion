@@ -1,0 +1,416 @@
+{
+  "grid": {
+    "width": 3671,
+    "height": 1310,
+    "transform": [
+      463.3127165279165,
+      0,
+      9343164.241507959,
+      0,
+      -463.3127165279167,
+      5149720.8442077935
+    ],
+    "crs": "SR-ORG:6974",
+    "proj4": "+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +R=6371007.181 +units=m +no_defs"
+  },
+  "raster_sha256": "087c52b08a1920323d98cefbd77a52296ef3040146f42fd7e4634ec11cce52fb",
+  "sources": [
+    {
+      "year": 2001,
+      "path": "/Volumes/data/data/CCD-Maize/2001/classified-Jilin-maize-2001-WGS84-v1.tif",
+      "sha256": "9a0ff0afd7aa9481ea2e180a071c6f3550fc1eed63b83f3a53f9c2c47bf7d02e",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2002,
+      "path": "/Volumes/data/data/CCD-Maize/2002/classified-Jilin-maize-2002-WGS84-v1.tif",
+      "sha256": "4eacc898e9a14b7bd25532ef895a6eccfcaf51d416d23078e34cb5796710a7fb",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2003,
+      "path": "/Volumes/data/data/CCD-Maize/2003/classified-Jilin-maize-2003-WGS84-v1.tif",
+      "sha256": "8b23541c373cd2a0ff7736ca37b209387d71398f3ce9c9492e355334cbd531d5",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2004,
+      "path": "/Volumes/data/data/CCD-Maize/2004/classified-Jilin-maize-2004-WGS84-v1.tif",
+      "sha256": "83e857e07584eb6610109daed665c0d0a9fd3f23d603f6d68334b3dac51acf5a",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2005,
+      "path": "/Volumes/data/data/CCD-Maize/2005/classified-Jilin-maize-2005-WGS84-v1.tif",
+      "sha256": "4bd0d756052842adf8214b31c089eae1028eabb090a518a489746b9196d5e7d4",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2006,
+      "path": "/Volumes/data/data/CCD-Maize/2006/classified-Jilin-maize-2006-WGS84-v1.tif",
+      "sha256": "3bcbcf8baefd34f1301c02e7922a443a6b9260fff663c15da9f4b63ea603f315",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2007,
+      "path": "/Volumes/data/data/CCD-Maize/2007/classified-Jilin-maize-2007-WGS84-v1.tif",
+      "sha256": "e7ad7ed1b45946b0e3a7bf4b1654fd4d33b8bcfdcb35b9e561d356660a37ba48",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2008,
+      "path": "/Volumes/data/data/CCD-Maize/2008/classified-Jilin-maize-2008-WGS84-v1.tif",
+      "sha256": "b11787a22463a49bc7b7e9a92cac04f515e180c9dfe4586d1f534aa185f19a8e",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2009,
+      "path": "/Volumes/data/data/CCD-Maize/2009/classified-Jilin-maize-2009-WGS84-v1.tif",
+      "sha256": "6c230a866d39ddc134ed69194f77a325b25a9fcb761b69d677e4a947e889d20b",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2010,
+      "path": "/Volumes/data/data/CCD-Maize/2010/classified-Jilin-maize-2010-WGS84-v1.tif",
+      "sha256": "76167f8b2cc2e168c73f4b2bab49966e9e46a5181ec4ae43da3c8a044c012f42",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2011,
+      "path": "/Volumes/data/data/CCD-Maize/2011/classified-Jilin-maize-2011-WGS84-v1.tif",
+      "sha256": "83fcd19f20b4d1525ba5102a3a742f5ead3a577e78e0e4d1ddddecfefe60c5f1",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2012,
+      "path": "/Volumes/data/data/CCD-Maize/2012/classified-Jilin-maize-2012-WGS84-v1.tif",
+      "sha256": "48843870b4adacd2fe4ff8d7fdd67989c19bf040f3fd6deb3511c4277e6b965c",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2013,
+      "path": "/Volumes/data/data/CCD-Maize/2013/classified-Jilin-maize-2013-WGS84-v1.tif",
+      "sha256": "f79db0eca9d5559c9c487e1210be8ff0401e5951f44fade3cd5a85e0468e9715",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2014,
+      "path": "/Volumes/data/data/CCD-Maize/2014/classified-Jilin-maize-2014-WGS84-v1.tif",
+      "sha256": "90dc149bf1a0e11bd427a5952136ffd73dce9d87e7358ea4dcbb20495cf3c4ac",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2015,
+      "path": "/Volumes/data/data/CCD-Maize/2015/classified-Jilin-maize-2015-WGS84-v1.tif",
+      "sha256": "b6519fb99449c4354db8547d06b0163eaf851c0de5ac7722133c1e455c18e9dc",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2016,
+      "path": "/Volumes/data/data/CCD-Maize/2016/classified-Jilin-maize-2016-WGS84-v1.tif",
+      "sha256": "125dd511b5310f82db164ba4615a11972d611e54d7c8d9acd8902060a69ef9d7",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2017,
+      "path": "/Volumes/data/data/CCD-Maize/2017/classified-Jilin-maize-2017-WGS84-v1.tif",
+      "sha256": "f654203b38e0326231ef97f8581d116ca53413010903f2f099ba1cd581645e72",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    },
+    {
+      "year": 2018,
+      "path": "/Volumes/data/data/CCD-Maize/2018/classified-Jilin-maize-2018-WGS84-v1.tif",
+      "sha256": "7b0e1efa1487d5d8ee9b196efe12cd88563a8a86027470e9b223e141fffca379",
+      "source_shape": [
+        20177,
+        35883
+      ],
+      "source_crs": "EPSG:4326",
+      "source_nodata": null
+    }
+  ],
+  "folds": [
+    {
+      "target_year": 2015,
+      "source_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "denominator": 14,
+      "thresholds": [
+        {
+          "threshold": 0.2,
+          "minimum_occurrences": 3,
+          "pixels": 220881
+        },
+        {
+          "threshold": 0.3,
+          "minimum_occurrences": 5,
+          "pixels": 180824
+        },
+        {
+          "threshold": 0.5,
+          "minimum_occurrences": 7,
+          "pixels": 144337
+        }
+      ]
+    },
+    {
+      "target_year": 2016,
+      "source_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "denominator": 15,
+      "thresholds": [
+        {
+          "threshold": 0.2,
+          "minimum_occurrences": 3,
+          "pixels": 232369
+        },
+        {
+          "threshold": 0.3,
+          "minimum_occurrences": 5,
+          "pixels": 192880
+        },
+        {
+          "threshold": 0.5,
+          "minimum_occurrences": 8,
+          "pixels": 140086
+        }
+      ]
+    },
+    {
+      "target_year": 2017,
+      "source_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "denominator": 16,
+      "thresholds": [
+        {
+          "threshold": 0.2,
+          "minimum_occurrences": 4,
+          "pixels": 221418
+        },
+        {
+          "threshold": 0.3,
+          "minimum_occurrences": 5,
+          "pixels": 203537
+        },
+        {
+          "threshold": 0.5,
+          "minimum_occurrences": 8,
+          "pixels": 153435
+        }
+      ]
+    },
+    {
+      "target_year": 2018,
+      "source_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "denominator": 17,
+      "thresholds": [
+        {
+          "threshold": 0.2,
+          "minimum_occurrences": 4,
+          "pixels": 229185
+        },
+        {
+          "threshold": 0.3,
+          "minimum_occurrences": 6,
+          "pixels": 196844
+        },
+        {
+          "threshold": 0.5,
+          "minimum_occurrences": 9,
+          "pixels": 149205
+        }
+      ]
+    },
+    {
+      "target_year": 2019,
+      "source_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "denominator": 18,
+      "thresholds": [
+        {
+          "threshold": 0.2,
+          "minimum_occurrences": 4,
+          "pixels": 235884
+        },
+        {
+          "threshold": 0.3,
+          "minimum_occurrences": 6,
+          "pixels": 205825
+        },
+        {
+          "threshold": 0.5,
+          "minimum_occurrences": 9,
+          "pixels": 160369
+        }
+      ]
+    }
+  ],
+  "semantics": "Annual binary CCD-Maize sampled by nearest neighbor at fixed MODIS 500m pixel centers, summed only over 2001..t-1. Threshold is temporal occurrence fraction, not maize area fraction. Missing maps not allowed.",
+  "passed": true
+}

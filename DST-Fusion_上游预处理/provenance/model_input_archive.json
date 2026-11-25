@@ -1,0 +1,10 @@
+{
+  "archive_manifest": "runs/20261102_1543_box/manifest.json",
+  "run_id": "20261102_1543_box",
+  "purpose": "Rerun the existing DST-Fusion implementation with checkpoint/export consistency repairs. Historical manuscript and original outputs remain unchanged.",
+  "source_files": {
+    "code/data/All_Data.csv": "de9ee62475685b3ea5a9eb71c4ae237b5be44a3f7987e1caa39aa0877f4b6e37",
+    "code/data/SIF_Weekly.csv": "45ee918808f2ef0581c784d1386bd3405f9753ca8c4ba8a02149c03b0955dae4",
+    "code/data/吉林省.json": "c641702ab60f0bedc348369663fa5e3aa530c1e38e8da51cfedca813b14dda6b"
+  }
+}

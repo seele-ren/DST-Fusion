@@ -1,0 +1,13 @@
+{
+  "threshold_percent": 30,
+  "county_fold_counts_compared": 165,
+  "county_fold_counts_equal": 165,
+  "positive_pixels_full_raster": {
+    "2015": 60270379,
+    "2016": 64278713,
+    "2017": 67799418,
+    "2018": 65518469,
+    "2019": 68514203
+  },
+  "county_reference": "county_fold_overlap.csv, 30% rows"
+}

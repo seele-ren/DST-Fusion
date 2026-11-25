@@ -1,0 +1,15 @@
+numpy
+pandas>=2.2,<3
+scipy
+xarray
+dask[array]
+netCDF4
+rasterio
+rioxarray
+geopandas
+shapely>=2.1
+pyproj
+affine
+regionmask
+tqdm
+pyhdf
